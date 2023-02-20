@@ -83,6 +83,8 @@ executing==1.2.0
     # via stack-data
 fastjsonschema==2.16.2
     # via nbformat
+findspark==2.0.1
+    # via spylon
 fonttools==4.38.0
     # via matplotlib
 fqdn==1.5.1
@@ -105,8 +107,10 @@ idna==3.4
     #   yarl
 ipykernel==6.21.2
     # via
+    #   metakernel
     #   nbclassic
     #   notebook
+    #   spylon-kernel
 ipython==8.10.0
     # via
     #   ipykernel
@@ -118,7 +122,10 @@ ipython-genutils==0.2.0
 isoduration==20.11.0
     # via jsonschema
 jedi==0.18.2
-    # via ipython
+    # via
+    #   ipython
+    #   metakernel
+    #   spylon-kernel
 jinja2==3.1.2
     # via
     #   jupyter-server
@@ -154,6 +161,7 @@ jupyter-core==5.2.0
     #   jupyter-client
     #   jupyter-server
     #   jupyterlab
+    #   metakernel
     #   nbclassic
     #   nbclient
     #   nbconvert
@@ -214,6 +222,8 @@ matplotlib-inline==0.1.6
     # via
     #   ipykernel
     #   ipython
+metakernel==0.29.4
+    # via spylon-kernel
 mistune==2.0.5
     # via nbconvert
 multidict==6.0.4
@@ -276,7 +286,9 @@ pandocfilters==1.5.0
 parso==0.8.3
     # via jedi
 pexpect==4.8.0
-    # via ipython
+    # via
+    #   ipython
+    #   metakernel
 pickleshare==0.7.5
     # via ipython
 pillow==9.4.0
@@ -333,7 +345,9 @@ pytz==2022.7.1
     #   jupyter-scheduler
     #   pandas
 pyyaml==6.0
-    # via jupyter-events
+    # via
+    #   jupyter-events
+    #   spylon
 pyzmq==25.0.0
     # via
     #   ipykernel
@@ -374,6 +388,10 @@ sniffio==1.3.0
     # via anyio
 soupsieve==2.4
     # via beautifulsoup4
+spylon[spark]==0.3.0
+    # via spylon-kernel
+spylon-kernel==0.4.1
+    # via -r requirements.in
 sqlalchemy==1.4.46
     # via
     #   alembic
@@ -403,6 +421,7 @@ tornado==6.2
     #   jupyterlab
     #   nbclassic
     #   notebook
+    #   spylon-kernel
     #   terminado
 traitlets==5.9.0
     # via
