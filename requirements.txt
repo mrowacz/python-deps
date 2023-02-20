@@ -236,6 +236,8 @@ notebook==6.5.2
     #   sudospawner
 notebook-shim==0.2.2
     # via nbclassic
+numpy==1.24.2
+    # via pandas
 oauthlib==3.2.2
     # via jupyterhub
 packaging==23.0
@@ -248,6 +250,8 @@ packaging==23.0
     #   nbconvert
 pamela==1.0.0
     # via jupyterhub
+pandas==1.5.3
+    # via -r requirements.in
 pandocfilters==1.5.0
     # via nbconvert
 parso==0.8.3
@@ -295,6 +299,7 @@ python-dateutil==2.8.2
     #   croniter
     #   jupyter-client
     #   jupyterhub
+    #   pandas
 python-json-logger==2.0.6
     # via
     #   jupyter-events
@@ -303,6 +308,7 @@ pytz==2022.7.1
     # via
     #   babel
     #   jupyter-scheduler
+    #   pandas
 pyyaml==6.0
     # via jupyter-events
 pyzmq==25.0.0

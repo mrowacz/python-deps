@@ -3,3 +3,4 @@ jupyterhub
 jupyterlab
 notebook 
 sudospawner
+pandas
