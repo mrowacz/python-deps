@@ -4,3 +4,5 @@ jupyterlab
 notebook 
 sudospawner
 pandas
+matplotlib
+jupyterlab_sql
