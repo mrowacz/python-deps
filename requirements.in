@@ -7,3 +7,5 @@ pandas
 matplotlib
 jupyterlab_sql
 spylon-kernel
+jupyter-server-proxy
+jupyter-vscode-proxy

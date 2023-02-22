@@ -11,6 +11,7 @@ aiofiles==22.1.0
 aiohttp==3.8.4
     # via
     #   aiobotocore
+    #   jupyter-server-proxy
     #   s3fs
 aioitertools==0.11.0
     # via aiobotocore
@@ -177,18 +178,25 @@ jupyter-server==2.3.0
     # via
     #   jupyter-scheduler
     #   jupyter-server-fileid
+    #   jupyter-server-proxy
     #   jupyterlab
     #   jupyterlab-server
     #   nbclassic
     #   notebook-shim
 jupyter-server-fileid==0.7.0
     # via jupyter-server-ydoc
+jupyter-server-proxy==3.2.2
+    # via
+    #   -r requirements.in
+    #   jupyter-vscode-proxy
 jupyter-server-terminals==0.4.4
     # via jupyter-server
 jupyter-server-ydoc==0.6.1
     # via jupyterlab
 jupyter-telemetry==0.1.0
     # via jupyterhub
+jupyter-vscode-proxy==0.2
+    # via -r requirements.in
 jupyter-ydoc==0.2.2
     # via
     #   jupyter-server-ydoc
@@ -378,6 +386,8 @@ send2trash==1.8.0
     #   jupyter-server
     #   nbclassic
     #   notebook
+simpervisor==0.4
+    # via jupyter-server-proxy
 six==1.16.0
     # via
     #   asttokens
